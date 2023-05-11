@@ -13,15 +13,22 @@ const Grid = () => {
         'White',
         'Octagon',
         'Hexagon',
+        'Hexagon',
+        'Hexagon',
+        'Hexagon',
+        'Hexagon',
+        'Hexagon',
+        'Hexagon',
+        'Hexagon',
     ]
 
     return (
-        <section className="grid">
+        <div className="grid">
             {cardTitles.map((card, index) => (
                 <Card key={index} title={card}/>
             )
             )}
-        </section>
+        </div>
     )
 }
 

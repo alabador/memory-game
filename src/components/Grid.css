@@ -1,8 +1,8 @@
 .grid {
+    border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-ul, li, ol {
-    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    
+    gap: 4px;
+    height: 100%;
 }

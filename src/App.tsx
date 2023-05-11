@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Grid from './components/Grid'
+import GridContainer from './components/GridContainer'
 
 function App() {
 
 
   return (
     <>
-      <Grid />
+      <GridContainer />
     </>
   )
 }
