@@ -1,14 +1,14 @@
-interface CardImage {
-    imageSrc: string;
+import './Card.css'
+
+type CardProps = {
+    title: string
 }
 
-const Card = (props:CardImage) => {
+const Card = (props:CardProps) => {
     return (
-        <>
-            <div>
-                <h1>{props.imageSrc}</h1>
-            </div>
-        </>
+        <div className="card">
+            <h1>{props.title}</h1>
+        </div>
     )
 }
 
